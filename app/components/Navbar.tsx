@@ -58,26 +58,26 @@ export default function Navbar() {
           <ThemeToggle />
           {/* Mobile hamburger */}
           <button
-          onClick={() => setOpen(!open)}
-          className="md:hidden flex flex-col gap-1.5 p-2"
-          aria-label="Menu"
-        >
-          <span
-            className={`block w-6 h-0.5 transition-all ${
-              scrolled ? "bg-text-dark" : "bg-white"
-            } ${open ? "rotate-45 translate-y-2" : ""}`}
-          />
-          <span
-            className={`block w-6 h-0.5 transition-all ${
-              scrolled ? "bg-text-dark" : "bg-white"
-            } ${open ? "opacity-0" : ""}`}
-          />
-          <span
-            className={`block w-6 h-0.5 transition-all ${
-              scrolled ? "bg-text-dark" : "bg-white"
-            } ${open ? "-rotate-45 -translate-y-2" : ""}`}
-          />
-        </button>
+            onClick={() => setOpen(!open)}
+            className="md:hidden flex flex-col gap-1.5 p-2"
+            aria-label="Menu"
+          >
+            <span
+              className={`block w-6 h-0.5 transition-all ${
+                scrolled ? "bg-text-dark" : "bg-white"
+              } ${open ? "rotate-45 translate-y-2" : ""}`}
+            />
+            <span
+              className={`block w-6 h-0.5 transition-all ${
+                scrolled ? "bg-text-dark" : "bg-white"
+              } ${open ? "opacity-0" : ""}`}
+            />
+            <span
+              className={`block w-6 h-0.5 transition-all ${
+                scrolled ? "bg-text-dark" : "bg-white"
+              } ${open ? "-rotate-45 -translate-y-2" : ""}`}
+            />
+          </button>
         </div>
       </div>
 

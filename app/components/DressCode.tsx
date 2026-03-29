@@ -4,7 +4,10 @@ import SectionTitle from "./SectionTitle";
 
 export default function DressCode() {
   return (
-    <section id="dresscode" className="section-padding bg-surface transition-colors duration-300">
+    <section
+      id="dresscode"
+      className="section-padding bg-surface transition-colors duration-300"
+    >
       <div className="max-w-4xl mx-auto">
         <ScrollReveal>
           <SectionTitle

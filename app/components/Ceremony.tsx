@@ -6,7 +6,10 @@ import MapEmbed from "./MapEmbed";
 
 export default function Ceremony() {
   return (
-    <section id="cerimonia" className="section-padding bg-surface transition-colors duration-300">
+    <section
+      id="cerimonia"
+      className="section-padding bg-surface transition-colors duration-300"
+    >
       <div className="max-w-4xl mx-auto">
         <ScrollReveal>
           <SectionTitle
