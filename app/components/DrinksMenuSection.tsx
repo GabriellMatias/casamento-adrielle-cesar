@@ -10,7 +10,10 @@ export default function DrinksMenuSection() {
   const preview = DRINKS.slice(0, PREVIEW_COUNT);
 
   return (
-    <section id="cardapio" className="section-padding bg-cream transition-colors duration-300">
+    <section
+      id="cardapio"
+      className="section-padding bg-cream transition-colors duration-300"
+    >
       <div className="max-w-6xl mx-auto">
         <ScrollReveal>
           <SectionTitle
