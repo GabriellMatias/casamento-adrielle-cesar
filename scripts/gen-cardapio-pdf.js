@@ -692,7 +692,9 @@ const htmlFull = buildHtmlFull();
 const outFileFull = path.join(OUT_DIR, "cardapio-elegante.html");
 fs.writeFileSync(outFileFull, htmlFull, "utf8");
 const sizeFull = (fs.statSync(outFileFull).size / 1024).toFixed(1);
-console.log(`✓ Gerado: carta-drinks/pdf/cardapio-elegante.html (${sizeFull} KB)`);
+console.log(
+  `✓ Gerado: carta-drinks/pdf/cardapio-elegante.html (${sizeFull} KB)`
+);
 
 console.log("");
 console.log("  → Abra no Google Chrome e use Imprimir › Salvar como PDF");
