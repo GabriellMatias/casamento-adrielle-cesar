@@ -9,6 +9,7 @@ const NAV_LINKS = [
   { href: "#cerimonia", label: "Cerimônia" },
   { href: "#recepcao", label: "Recepção" },
   { href: "#dresscode", label: "Dress Code" },
+  { href: "#cardapio", label: "Drinks" },
   { href: "#presenca", label: "Presença" },
 ];
 
